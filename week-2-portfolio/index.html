@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minahil Ashraf | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#home" class="logo">Minahil</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="layer shape s1" data-speed="0.15"></div>
+      <div class="layer shape s2" data-speed="0.35"></div>
+      <div class="layer shape s3" data-speed="0.55"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Minahil Ashraf</h1>
+        <p class="role">AI/ML Enthusiast &amp; Front-End Developer</p>
+        <p class="intro">Computer Science student building useful things with Generative AI, clean interfaces and a lot of curiosity.</p>
+        <a href="#projects" class="btn">View My Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <h2>About Me</h2>
+      <p>I'm a BS Computer Science student at Islamia College with hands-on training in Generative AI and Retrieval-Augmented Generation (RAG). I enjoy turning ideas into usable interfaces, and I design in Figma before I code.</p>
+      <p><strong>Learning goals:</strong> mastering React, building accessible and responsive interfaces, and combining front-end skills with AI projects.</p>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card tilt"><h3>Front-End</h3><p>HTML, CSS, JavaScript</p></div>
+        <div class="card tilt"><h3>Programming</h3><p>Python, C++, SQL</p></div>
+        <div class="card tilt"><h3>AI / ML</h3><p>Generative AI, RAG, Prompt Engineering</p></div>
+        <div class="card tilt"><h3>Design</h3><p>Figma, UI/UX Prototyping</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card tilt">
+          <h3>Civic Pulse</h3>
+          <p>A civic engagement app for reporting and tracking local community issues, designed in Figma.</p>
+          <p class="tags"><span>Figma</span><span>UI/UX</span></p>
+          <a href="https://github.com/minahil607/civic-pulse" class="link">Repository link</a>
+        </article>
+        <article class="card tilt">
+          <h3>RAG System</h3>
+          <p>A Retrieval-Augmented Generation pipeline that gives context-aware answers using document retrieval and an LLM.</p>
+          <p class="tags"><span>Python</span><span>LLM</span><span>RAG</span></p>
+          <a href="https://github.com/abrar35-cyber/Maamta_AI" class="link">Repository link</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2>Contact</h2>
+      <form id="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" required></textarea>
+        <p id="form-status" role="alert"></p>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p class="links">
+        <a href="https://github.com/minahil607" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/minahil-ashraf-695812391" target="_blank" rel="noopener noreferrer">LinkedIn link</a>
+      </p>
+    </section>
+  </main>
+
+  <footer><p>© 2026 Minahil Ashraf</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
