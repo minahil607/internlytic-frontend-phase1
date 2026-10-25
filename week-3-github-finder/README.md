@@ -3,7 +3,7 @@
 Internlytic Technologies — Phase 1, Week 3 (Front-End Development).
 Search any GitHub username and view the public profile and latest repositories.
 
-**Live demo:** _add your Vercel/Netlify/GitHub Pages link here_
+**Live demo:** https://internlytic-frontend-phase1.vercel.app
 
 ## Features
 - Username input, Search button and Enter-key support (native `<form>`)
