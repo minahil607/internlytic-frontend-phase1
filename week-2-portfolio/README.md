@@ -2,8 +2,6 @@
 
 A responsive personal portfolio built with plain HTML, CSS and JavaScript, using layered parallax and 3D card effects.
 
-**Live demo:** https://internlytic-frontend-phase1.vercel.app
-
 ## Features
 
 - **Sections:** Home, About, Skills, Projects and Contact
