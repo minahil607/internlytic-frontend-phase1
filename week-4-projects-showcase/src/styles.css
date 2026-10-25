@@ -72,3 +72,4 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 1.
   .card, .skeleton { transition: none; animation: none; }
   .card:hover { transform: none; }
 }
+.logo { height: 44px; width: auto; display: block; }

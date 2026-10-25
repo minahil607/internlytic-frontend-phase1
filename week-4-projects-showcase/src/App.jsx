@@ -37,11 +37,9 @@ export default function App() {
   return (
     <>
       <header className="top">
-        <div className="brand">
-          {/* Replace with the official logo file (keep its proportions). */}
-          <span className="logo-mark" aria-hidden="true">I</span>
-          <span>Internlytic Technologies</span>
-        </div>
+          <div className="brand">
+            <img className="logo" src={logo} alt="Internlytic Technologies" />
+          </div>
       </header>
 
       <section className="hero">
