@@ -3,7 +3,7 @@
 A responsive gallery concept where visitors can explore projects built by interns during Phase 1 of the Internlytic Technologies Front-End Development Internship, and see each project's creator and details.
 
 > **Task:** Week 4 (Final Task), Internlytic Technologies Phase 1, 2026
-> **Live demo:** https://YOUR-WEEK-4-LINK.vercel.app
+> **Live demo:** (https://internlytic-frontend-phase1-edar.vercel.app/)
 > **Repository:** https://github.com/YOUR-USERNAME/internlytic-frontend-phase1
 
 ---
