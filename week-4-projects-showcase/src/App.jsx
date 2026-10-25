@@ -5,6 +5,7 @@ import FilterControls from "./components/FilterControls.jsx";
 import ProjectCard from "./components/ProjectCard.jsx";
 import ProjectModal from "./components/ProjectModal.jsx";
 import Message from "./components/Message.jsx";
+import logo from "./logo.png";
 
 export default function App() {
   const [status, setStatus] = useState("loading"); // loading | success | error
@@ -37,9 +38,9 @@ export default function App() {
   return (
     <>
       <header className="top">
-          <div className="brand">
-            <img className="logo" src={logo} alt="Internlytic Technologies" />
-          </div>
+        <div className="brand">
+          <img className="logo" src={logo} alt="Internlytic Technologies" />
+        </div>
       </header>
 
       <section className="hero">
