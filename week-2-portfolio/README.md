@@ -1,7 +1,8 @@
 # Week 2: 3D Interactive Personal Portfolio
 
 A responsive personal portfolio built with plain HTML, CSS and JavaScript, using layered parallax and 3D card effects.
- **Demo link:** (https://internlytic-frontend-phase1-week-2.vercel.app/)
+
+**Demo link:** (https://internlytic-frontend-phase1-week-2.vercel.app/)
 
 ## Features
 
